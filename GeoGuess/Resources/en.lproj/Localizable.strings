@@ -1,0 +1,62 @@
+/* General */
+"app_title"               = "GeoGuess";
+"unknown"                 = "Unknown";
+"ok_button_title"         = "OK";
+"login_failed_alert_title" = "Login Failed";
+"invalid_credentials_error" = "Incorrect username or password.";
+
+/* Splash */
+"splash_description"      = "Discover the world";
+
+/* Home screen */
+"home_title" = "Welcome to GeoGuess!";
+"home_subtitle" = "Ready to test your knowledge?";
+"home_start_quiz" = "Start Quiz";
+"home_browse_countries" = "Browse Countries";
+"home_logout" = "Logout";
+
+/* Auth screen */
+"email_placeholder" = "Email";
+"password_placeholder" = "Password";
+"sign_in_button_title" = "Sign In";
+"continue_as_guest_button_title" = "Continue as Guest";
+"forgot_password_button_title" = "Forgot your password?";
+
+"Capital" = "Capital";
+"Region" = "Region";
+"Subregion" = "Subregion";
+"Population" = "Population";
+"Area" = "Area";
+"Currencies" = "Currencies";
+"Languages" = "Languages";
+
+/* Countries List */
+"countries_list_title" = "Countries";
+"offline_mode_banner" = "Offline Mode";
+"no_countries_found" = "No countries found.";
+
+/* Country Details */
+"detail_title" = "Country Details";
+"detail_capital" = "Capital";
+"detail_region" = "Region";
+"detail_subregion" = "Subregion";
+"detail_population" = "Population";
+"detail_area" = "Area";
+"detail_currencies" = "Currencies";
+"detail_languages" = "Languages";
+"detail_offline_error_title" = "No Internet Connection";
+"detail_offline_error_message" = "You are currently offline. Please connect to the internet to see country details.";
+
+/* Tab Bar */
+"tab_bar_home" = "Home";
+"tab_bar_countries" = "Countries";
+
+/* General */
+"error_title" = "Error";
+"oops_title" = "Oops!";
+
+/* Quiz */
+"quiz_finished" = "Quiz finished";
+"close" = "Close";
+"play_again" = "Play again";
+"score" = "You scored %1$d / %2$d";
