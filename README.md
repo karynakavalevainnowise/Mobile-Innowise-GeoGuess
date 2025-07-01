@@ -20,7 +20,7 @@ The app is built using a robust set of modern iOS development patterns and frame
 
 ## Project Structure
 
-The project is organized into a modular architecture, with clear separation of responsibilities between folders.
+The project is organized with clear separation of responsibilities between folders.
 
 ```
 GeoGuess/
