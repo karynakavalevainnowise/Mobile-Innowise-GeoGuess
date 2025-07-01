@@ -59,9 +59,9 @@ This project was developed in a pair-programming style with an AI assistant. The
 
 For some design tasks and UI prototyping, Stitch AI (from Google) was used. Stitch AI is helpful for generating quick design overviews and ideas, but it currently cannot ensure consistent or production-ready design (for example, it may generate screens with an unequal number of tabs or inconsistent layouts). It is best used for inspiration and rapid prototyping, not for final UI assets or flows.
 
-<img src="Demo/StitchAI_1.png" width="600"/>
-<img src="Demo/StitchAI_2.png" width="150"/>
-<img src="Demo/StitchAI_3.png" width="600"/>
+<img src="Demo/StitchAI_1.png" width="800"/>
+<img src="Demo/StitchAI_2.png" width="200"/>
+<img src="Demo/StitchAI_3.png" width="800"/>
 
 Example:
 
