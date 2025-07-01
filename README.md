@@ -63,10 +63,6 @@ For some design tasks and UI prototyping, Stitch AI (from Google) was used. Stit
 <img src="Demo/StitchAI_2.png" width="200"/>
 <img src="Demo/StitchAI_3.png" width="800"/>
 
-Example:
-
-
-
 ## Prompts Used
 
 The development process was guided by a series of high-level prompts. The following are representative examples of the instructions given to the AI assistant during the project:
@@ -125,11 +121,12 @@ This section provides an analysis of the AI-assisted development process for thi
 -   **Conclusion:** Using an AI assistant like ChatGPT, Cursor, etc. is a powerful force multiplier. It dramatically reduces the time spent on boilerplate and research. For well-defined, scoped tasks, it's an unparalleled productivity tool. However, AI-generated code may not always account for future extensibility or best practices. For example, when generating a base coordinator, the AI did not implement a childCoordinators array, which is essential for retaining child coordinators in memory and ensuring proper navigation flows. Manual review and refactoring are recommended to ensure long-term maintainability and scalability.
 
 **Demo Materials:**
-- [Video Demo](Demo/Video.mp4) - Complete app demonstration
+
+https://github.com/user-attachments/assets/7b6ba4bd-12ed-4f63-bfde-5056a6a5597c
 
 ## Improvements
 
 - **Image Storage:** Currently, image URLs are stored in SwiftData. This is not optimal for offline or performance-critical scenarios. A better approach would be to download and store images locally using FileManager, and persist only the file paths or identifiers in the database.
-- **Time Constraints:** Due to limited time, a full-scale refactor of the entire codebase was not possible. Some architectural or technical debt remains.
+- **Time Constraints:** Due to limited time, a full-scale refactor of the entire codebase was not possible. Some architectural or technical debt remains. Quiz block needs refactoring.
 - **Quiz Feature Refactoring:** The entire Quiz feature block requires refactoring for consistency with the rest of the codebase. Due to time constraints (approximately 16 hours), the refactoring of this feature was not completed.
 
